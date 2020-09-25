@@ -12,9 +12,9 @@ to its initial position in the upper left corner of the house.
 
 
 def main():
+	pass
 
-# There is no need to edit code beyond this point
-
+	# There is no need to edit code below this line
 
 if __name__ == "__main__":
     run_karel_program()
