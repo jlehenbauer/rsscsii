@@ -32,8 +32,15 @@ See karel-reference.md for all Karel's capabilities.
 
 
 def main():
-	pass
-
+	turn_left()
+	turn_left()
+	turn_left()
+	move()
+	turn_left()
+	move()
+	move()
+	move()
+	pick_beeper()
 	# There is no need to edit code below this line
 
 if __name__ == "__main__":
