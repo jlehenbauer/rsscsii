@@ -16,6 +16,11 @@ def main():
     Karel repeats painting 3 walls on 3 buildings, turning right
     when she reaches a new building.
     """
+    while True:
+    	if frontIsClear():
+	    	put_beeper()
+	    	move()
+
 
 # There is no need to edit code beyond this point
 

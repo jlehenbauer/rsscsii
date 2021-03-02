@@ -33,6 +33,29 @@ See karel-reference.md for all Karel's capabilities.
 
 def main():
 	pass
+	turn_right()
+	move()
+	turn_left()
+	move3()
+	pick_beeper()
+	turn180()
+	move3()
+	turn_right()
+	move()
+
+def turn_right():
+	turn_left()
+	turn_left()
+	turn_left()
+
+def move3():
+	move()
+	move()
+	move()
+
+def turn180():
+	turn_left()
+	turn_left()
 
 	# There is no need to edit code below this line
 
