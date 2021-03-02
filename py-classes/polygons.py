@@ -1,0 +1,2 @@
+class Polygon:
+    sides = None
