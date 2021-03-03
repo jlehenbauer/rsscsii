@@ -6,6 +6,6 @@ class Polygon:
     width = None
     perimiter = None
     area = None
-    def __init__(self):
-        self.sides = 3
-        self.side_length = 1
+    def __init__(self, sides=3, side_length=1):
+        self.sides = sides
+        self.side_length = side_length
