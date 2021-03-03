@@ -5,6 +5,9 @@
 ##### _3/2/21_
 Read through the notes on python classes from the [TutorialsTeacher][1] documentation.
 
+##### _3/3/21_
+Write a `get_perimeter()` function within the Polygon class.
+
 ## Documentation
 - [TutorialsTeacher][1]
 - [Official Python Documentation][2] 
