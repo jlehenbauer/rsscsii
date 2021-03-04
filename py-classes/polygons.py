@@ -9,5 +9,5 @@ class Polygon:
     def __init__(self, sides=3, side_length=1):
         self.sides = sides
         self.side_length = side_length
-    def get_perimiter(sides, side_length):
-        perimiter = sides * side_length
+    def get_perimiter(self):
+        perimiter = self.sides * self.side_length
