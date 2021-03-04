@@ -4,10 +4,12 @@ class Polygon:
     side_length = None
     height = None
     width = None
-    perimiter = None
+    perimeter = None
     area = None
     def __init__(self, sides=3, side_length=1):
         self.sides = sides
         self.side_length = side_length
-    def get_perimiter(sides, side_length):
-        perimiter = sides * side_length
+    #this function uses self to find perimeter of polygon
+    def get_perimeter(self):
+        self.perimeter = self.sides * self.side_length
+        return self.perimeter
