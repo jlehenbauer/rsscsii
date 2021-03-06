@@ -1,3 +1,5 @@
+import math
+
 class Polygon:
     sides = None
     radius = None
@@ -13,4 +15,8 @@ class Polygon:
     def get_perimeter(self):
         self.perimeter = self.sides * self.side_length
         return self.perimeter
-    
+    def get_area(self):
+        apothem = self.side_length / (2 * math.tan(math.pi/self.sides))
+        return apothem
+
+
