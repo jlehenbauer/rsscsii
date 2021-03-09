@@ -14,4 +14,4 @@ Write a `get_perimeter()` function within the Polygon class.
 
 
 [1]: https://www.tutorialsteacher.com/python/python-class
-[2]: https://docs.python.org/3/tutorial/classes.html
+[2]: https://docs.python.org/3/tutorial/classes.html6
