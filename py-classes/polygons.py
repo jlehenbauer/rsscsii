@@ -12,11 +12,11 @@ class Polygon:
         self.sides = sides
         self.side_length = side_length
     #this function uses self to find perimeter of polygon
-    def get_perimeter(self):
-        self.perimeter = self.sides * self.side_length
-        return self.perimeter
     def get_area(self):
-        apothem = self.side_length / (2 * math.tan(math.pi/self.sides))
-        return apothem
-
+        self.perimeter = self.sides * self.side_length
+        #return self.perimeter
+        self.apothem = apothem = self.side_length / (2 * math.tan(math.pi/self.sides))
+        #return self.apothem
+        self.area = 1/2*(self.apothem * self.perimeter)
+        return self.area
 
