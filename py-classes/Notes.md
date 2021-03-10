@@ -14,6 +14,16 @@ Write a `get_perimeter()` function within the Polygon class.
 3. Use [properties of regular polygons][3] to determine what should be left to specific figures.
 4. Calculate necessary values during `__init__`.
 
+##### _3/10/21_
+Complete your `polytest.py` file to do all of the following: 
+- Ask the user to input the number of sides
+- Ask the user for the side length
+- Create the polygon
+- Print pretty messages telling them the:
+  - Apothem
+  - Perimeter
+  - Area
+
 ## Documentation
 - [TutorialsTeacher][1]
 - [Official Python Documentation][2] 
