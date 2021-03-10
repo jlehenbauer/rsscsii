@@ -18,12 +18,10 @@ Write a `get_perimeter()` function within the Polygon class.
 - [TutorialsTeacher][1]
 - [Official Python Documentation][2] 
 - [Rechner Online][3]
+- [On the organization of Class Structure][4]
 
 
 [1]: https://www.tutorialsteacher.com/python/python-class
-<<<<<<< HEAD
-[2]: https://docs.python.org/3/tutorial/classes.html6
-=======
 [2]: https://docs.python.org/3/tutorial/classes.html
 [3]: https://rechneronline.de/pi/equilateral-triangle.php
->>>>>>> 126cc9fce7af7ed80c08fb5940480223698d5414
+[4]: https://stackoverflow.com/questions/106896/possibilities-for-python-classes-organized-across-files#:~:text=It%20entirely%20depends%20on%20how,other%20files%20and%20so%20on.&text=If%20you%20have%20a%20class,functions%20into%20a%20separate%20file.
