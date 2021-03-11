@@ -16,3 +16,9 @@ class Polygon:
     def get_area(self):
         return self.area
 
+class Triangle(Polygon):
+    def __init__(self, side_length=1):
+        super().__init__(3, side_length)
+        self.height = self.apothem * 3
+        self.width = self.side_length
+
