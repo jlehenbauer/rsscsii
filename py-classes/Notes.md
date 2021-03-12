@@ -24,6 +24,9 @@ Complete your `polytest.py` file to do all of the following:
   - Perimeter
   - Area
 
+##### _3/11/21_
+Add sub-classes for the next set of regular polygons (triangle through octagon).
+
 ## Documentation
 - [TutorialsTeacher][1]
 - [Official Python Documentation][2] 
