@@ -11,3 +11,7 @@
 
 ##### _3/22/21_
 Create `self.solution` list from random elements of item lists.
+
+##### _3/23/21_
+- Remove the items in `self.solution` from their respective lists
+- Begin your `Player` class
