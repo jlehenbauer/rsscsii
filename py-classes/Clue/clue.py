@@ -1,26 +1,24 @@
 class Clue:
-    myList = None
     weaponsList = ["Candle Stick", "Knife", "Lead Pipe", "Revolver", "Rope", "Wrench"]
     murderersList = ["Colonel Mustard", "Mrs. White", "Professor Plum", "Mrs. Peacock", "Mr. Green", "Miss Scarlet"]
     roomsList = ["Ballroom", "Billiard Room", "Conservatory", "Dining Room", 'Hall', "Kitchen", "Lounge", "Library", "Study"]
 
     
     def __init__(self):
-        self.listLen = len(myList)
         self.solution = []
-
         self.weapons = []
-        for item in weaponsList:
+
+        for item in self.weaponsList:
             self.weapons.append(Weapon(item))
             self.solution.append(Weapon(item))
 
         self.murderer = []
-        for item in murderersList:
+        for item in self.murderersList:
             self.murderer.append(Murderer(item))
             self.solution.append(Murderer(item))
 
         self.rooms = []
-        for item in roomsList:
+        for item in self.roomsList:
             self.rooms.append(Room(item))
             self.solution.append(Room(item))
 
