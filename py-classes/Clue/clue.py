@@ -7,18 +7,24 @@ class Clue:
     
     def __init__(self):
         self.listLen = len(myList)
+        self.solution = []
+
         self.weapons = []
         for item in weaponsList:
             self.weapons.append(Weapon(item))
+            self.solution.append(Weapon(item))
 
         self.murderer = []
         for item in murderersList:
             self.murderer.append(Murderer(item))
+            self.solution.append(Murderer(item))
 
         self.rooms = []
         for item in roomsList:
             self.rooms.append(Room(item))
+            self.solution.append(Room(item))
 
+        
 class Weapon:
     name = None
     def __init__(self, name):
