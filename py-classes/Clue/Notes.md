@@ -15,3 +15,10 @@ Create `self.solution` list from random elements of item lists.
 ##### _3/23/21_
 - Remove the items in `self.solution` from their respective lists
 - Begin your `Player` class
+
+##### _3/24/21_
+Write the  `create_player` function and implement it inside `main.py`
+ - create a player object (`Player(name)`) inside `create_player`
+ - add player to `players` list
+ - return player object
+ - in `main.py`: for num_players: game.create_player(input("player name?"))
