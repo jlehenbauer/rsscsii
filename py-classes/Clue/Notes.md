@@ -22,3 +22,8 @@ Write the  `create_player` function and implement it inside `main.py`
  - add player to `players` list
  - return player object
  - in `main.py`: for num_players: game.create_player(input("player name?"))
+
+ ##### _3/25/21_
+ Brainstorm and write down:
+ 1. What happens next in Clue
+ 2. What would it be useful for our Player objects to be able to do
