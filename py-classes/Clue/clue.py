@@ -23,12 +23,15 @@ class Clue:
 
         self.solution = [random.choice(self.weapons), random.choice(self.murderer), random.choice(self.rooms)]
         
-        weaponsList.remove(self.solution[0])
-        murderersList.remove(self.solution[1])    
-        roomsList.remove(self.solution[2])
+        self.weapons.remove(self.solution[0])
+        self.murderer.remove(self.solution[1])    
+        self.rooms.remove(self.solution[2])
 
     def create_player(self, name):
-        
+        player = Player(name)
+        self.players.append(player)
+        return player
+
 class Weapon:
     name = None
     def __init__(self, name):
