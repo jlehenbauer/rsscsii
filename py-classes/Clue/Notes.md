@@ -27,3 +27,6 @@ Write the  `create_player` function and implement it inside `main.py`
  Brainstorm and write down:
  1. What happens next in Clue
  2. What would it be useful for our Player objects to be able to do
+ ### Kate:
+ #### Next we will need to make and roll the dice 
+ #### It would be useful to know proximity to a room and general location
