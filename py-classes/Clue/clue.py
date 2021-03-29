@@ -31,6 +31,7 @@ class Clue:
         player = Player(name)
         self.players.append(player)
         return player
+        
     def card_handout(self):
         master_list = self.weapons + self.rooms + self.murderer
         play_num = 0 

@@ -30,3 +30,11 @@ Write the  `create_player` function and implement it inside `main.py`
  ### Kate:
  #### Next we will need to make and roll the dice 
  #### It would be useful to know proximity to a room and general location
+
+##### _3/29/21_
+1. Write `roll_dice` function in clue.py
+2. Create loop in main.py for player turns
+3. For each turn:
+    1. Print who's turn it is
+    2. Print their card list
+    3. Print their dice roll
