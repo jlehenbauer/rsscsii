@@ -31,6 +31,15 @@ class Clue:
         player = Player(name)
         self.players.append(player)
         return player
+    def card_handout(self):
+        master_list = self.weapons + self.rooms + self.murderer
+        play_num = 0 
+        while master_list != []:
+            place = random.randint(len(master_list))
+            players[play_num].give_card(master_list[place])
+            play_num = (play_num + 1) % len(players)
+            master_list.remove(master_list[place])
+
 
 class Weapon:
     name = None
@@ -50,8 +59,11 @@ class Room:
 
 class Player:
     name = None
+    card_list = []
     def __init__(self, name):
         self.name = name
+        def give_card(self, card):
+            self.card_list.append(card)
 
 
 
