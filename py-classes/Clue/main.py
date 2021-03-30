@@ -10,7 +10,7 @@ def main():
     print(game.players)
 
     for i in game.players:
-        print (game.play_num)
+        print (i.name)
         print (i.card_list)
         print (roll_dice())
 if __name__ == "__main__":
