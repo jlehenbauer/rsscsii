@@ -40,7 +40,9 @@ class Clue:
             players[play_num].give_card(master_list[place])
             play_num = (play_num + 1) % len(players)
             master_list.remove(master_list[place])
-
+    def roll_dice():
+        return random.randint(1, 6)   
+        
 
 class Weapon:
     name = None
@@ -66,17 +68,7 @@ class Player:
         def give_card(self, card):
             self.card_list.append(card)
 
-class Dice:
-    dice_list = [dice1 = 0, dice2 = 0]
-    def __init__(self):
-        for i in self.dice_list:
-            i = random.randint(1, 6)
 
-def roll_dice():
-    dice_list = [dice1 = 0, dice2 = 0]
-    for i in self.dice_list:
-        i = random.randint(1, 6)
-        return i
 
 
 
