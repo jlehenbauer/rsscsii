@@ -66,6 +66,18 @@ class Player:
         def give_card(self, card):
             self.card_list.append(card)
 
+class Dice:
+    dice_list = [dice1 = 0, dice2 = 0]
+    def __init__(self):
+        for i in self.dice_list:
+            i = random.randint(1, 6)
+
+def roll_dice():
+    dice_list = [dice1 = 0, dice2 = 0]
+    for i in self.dice_list:
+        i = random.randint(1, 6)
+        return i
+
 
 
 
