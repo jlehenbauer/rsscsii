@@ -36,11 +36,11 @@ class Clue:
         master_list = self.weapons + self.rooms + self.murderer
         play_num = 0 
         while master_list != []:
-            place = random.randint(len(master_list))
-            players[play_num].give_card(master_list[place])
-            play_num = (play_num + 1) % len(players)
+            place = random.randint(0, len(master_list)-1)
+            self.players[play_num].give_card(master_list[place])
+            play_num = (play_num + 1) % len(self.players)
             master_list.remove(master_list[place])
-    def roll_dice():
+    def roll_dice(self):
         return random.randint(1, 6)   
         
 
@@ -62,11 +62,12 @@ class Room:
 
 class Player:
     name = None
-    card_list = []
+    
     def __init__(self, name):
         self.name = name
-        def give_card(self, card):
-            self.card_list.append(card)
+        self.card_list = []
+    def give_card(self, card):
+        self.card_list.append(card)
 
 
 
