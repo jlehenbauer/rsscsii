@@ -42,6 +42,12 @@ class Clue:
             master_list.remove(master_list[place])
     def roll_dice(self):
         return random.randint(1, 6)   
+
+    #TODO
+    # 1- make it so that only one players cards are shown
+    # - make the gameboard
+    # 2- create each players character log
+    # - make on step for terminal responces
         
 
 class Weapon:
