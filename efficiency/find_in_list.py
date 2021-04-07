@@ -1,3 +1,5 @@
+import timeit
+
 def find_in_list(num_list, num):
     if num in num_list:
         return True
@@ -24,6 +26,16 @@ def again_in_list2(num_list, num):
 
 if __name__=="__main__":
     num = 4
-    num_list = (1, 2, 3, 4, 5)
-    print(again_in_list2((1, 2, 3, 4, 5), 4))
+    num_list = [1, 2, 3, 4, 5]
+    # Find in list
+    print(f"find_in_list({num_list}, {num}):")
+    print(timeit.timeit("find_in_list([1, 2, 3, 4, 5], 4)", "from __main__ import find_in_list"))
+    
+    # Again in list
+    print(f"again_in_list({num_list}, {num}):")
+    print(timeit.timeit("again_in_list([1, 2, 3, 4, 5], 4)", "from __main__ import again_in_list"))
+    
+    # Again in list 2
+    print(f"again_in_list2({num_list}, {num}):")
+    print(timeit.timeit("again_in_list2([1, 2, 3, 4, 5], 4)", "from __main__ import again_in_list2"))
     
