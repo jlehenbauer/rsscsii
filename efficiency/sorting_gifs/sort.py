@@ -4,7 +4,7 @@ def insertion_sort(in_list):
         for j in range(len(new_list)):
             if i < new_list[j]:
                new_list = new_list[:j-1] + [i] + new_list[j:]
-        break
+            break
     return [new_list]
 
 if __name__ == "__main__":
