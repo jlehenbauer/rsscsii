@@ -3,7 +3,8 @@ import tkinter
 
 def buttfunc(name):
     print(name + ", cool") 
-    return name + ", cool"
+    piglatin = name[1:] + name[0] + "ay"
+    return piglatin
 
 def main():
     def do_buttfunc():
