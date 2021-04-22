@@ -15,6 +15,8 @@ def main():
 
     window = tkinter.Tk()
 
+    title = tkinter.Label(text = "Name Translator")
+    title.pack()
     greeting = tkinter.Label(text= "What is your first name?")
     greeting.pack()
 
