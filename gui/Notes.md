@@ -14,4 +14,8 @@ Consider:
  - Can you add comments to your code for anyone who might come along to make edits?
  - Can you add a second translator???
 
+##### _4/26/21_
+Use [this tutorial][2] to start using `frame`s and `grid`s to help keep your layout clean!
+
 [1]:https://realpython.com/python-gui-tkinter/#building-your-first-python-gui-application-with-tkinter
+[2]:https://realpython.com/python-gui-tkinter/#controlling-layout-with-geometry-managers
