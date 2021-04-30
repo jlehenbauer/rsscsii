@@ -5,6 +5,7 @@ import tkinter
 ## arabic (dont know how i would get those characters)
 ## galactic alphabet ('')
 ## phone number keyboard
+## nato phonetic alphabet (whiskey, tango, foxtrot)
 
 def binary_trans(letter):
     letter = letter.lower()
