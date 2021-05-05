@@ -27,11 +27,19 @@ def find_flames(filename):
     image = SimpleImage(filename)
 
     for px in image:
-        pass
+        
         #TODO: Calculate average of green, blue, and red and mutiply by INTENSITY_THRESHOLD
-
+        my_average = ((px.red + px.green + px.blue)/3) 
+        average_int = my_average * INTENSITY_THRESHOLD
         #TODO: If a pixel's red is higher than this average, set it completely red, otherwise, set it to the average
-    
+        if px.red > my_average:
+            px.red = 255
+            px.blue = 0
+            px.green = 0
+        else:
+            px.red = INTENSITY_THRESHOLD
+            px.blue = INTENSITY_THRESHOLD
+            px.green = INTENSITY_THRESHOLD
     return image
 
 def main():
